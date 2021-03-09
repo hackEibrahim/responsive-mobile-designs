@@ -1,0 +1,83 @@
+@media only screen and (max-width: 800px) {
+  input {
+    width: 55%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    -webkit-box-shadow: 1px 1px 1px #6d6a6a;
+            box-shadow: 1px 1px 1px #6d6a6a;
+    border-radius: 10px;
+    padding: 10px 100px 10px 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  body {
+    background-color: white;
+  }
+  body h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  body h3 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  body button {
+    background-color: #181861;
+    width: 85%;
+    color: white;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial Narrow bold;
+  }
+  body span {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial Narrow bold;
+    margin-left: 30%;
+  }
+  body div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 25px 25px 25px;
+        grid-template-columns: 25px 25px 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    gap: 25%;
+  }
+  body div img {
+    width: 20px;
+  }
+  body p {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: Arial Narrow bold;
+    font-weight: 300;
+  }
+  body a {
+    font-size: 15px;
+    font-family: Arial Narrow bold;
+    font-weight: 500;
+    color: rgba(8, 8, 105, 0.801);
+  }
+}
+/*# sourceMappingURL=cignify.css.map */

@@ -1,0 +1,68 @@
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: red;
+    padding: 15% 10% 3% 10%;
+  }
+  body h1 {
+    font-size: 75px;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+  }
+  p {
+    font-family: Arial Narrow Bold;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    margin-top: -25%;
+    margin-bottom: 45%;
+  }
+  input, .log {
+    background-color: white;
+    color: red;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 15%;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 15px;
+  }
+  span, .path {
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(250, 181, 91, 0.795);
+    position: relative;
+    left: 20%;
+  }
+  .log {
+    border: 1px solid rgba(250, 181, 91, 0.795);
+    background-color: red;
+    color: rgba(250, 181, 91, 0.795);
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .path {
+    position: relative;
+    left: 15%;
+    font-size: 12px;
+  }
+  div {
+    color: white;
+    position: relative;
+    left: 13%;
+    font-size: 13px;
+  }
+  a {
+    text-decoration: underline;
+    color: white;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+/*# sourceMappingURL=path.css.map */

@@ -1,0 +1,86 @@
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgba(248, 188, 198, 0.301);
+  }
+  .mobile {
+    background-color: #f8b63c;
+    border-radius: 15px;
+    height: 50vh;
+    padding: 35% 0% 0% 0%;
+    margin-bottom: 50%;
+  }
+  .mobile h5 {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial Narrow bold;
+  }
+  .mobile p {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .mobile div {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 50vh;
+    padding: 15% 5% 10% 5%;
+  }
+  .mobile div select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    padding-bottom: 5px;
+    margin-bottom: 40%;
+  }
+  .mobile div input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    padding-bottom: 5px;
+    margin-bottom: 40%;
+    color: rgba(0, 0, 0, 0.432);
+  }
+  .mobile div button {
+    background-color: rgba(255, 166, 0, 0.74);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial Narrow bold;
+    font-weight: 700;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 45px 10px 45px;
+  }
+  .mobile div .dot, .mobile div .dot2 {
+    background-color: rgba(248, 188, 198, 0.336);
+    height: 5px;
+    width: 5%;
+    border-radius: 0px;
+    display: inline-block;
+    padding-top: 1px;
+    padding-bottom: 35px;
+    padding-right: 2px;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+  .mobile div .dot2 {
+    color: rgba(248, 188, 198, 0.336);
+  }
+  .mobile div span {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30%;
+  }
+  .mobile div h6 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=otp.css.map */

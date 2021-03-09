@@ -1,0 +1,121 @@
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #363535;
+  }
+  body .coin {
+    background-color: #535050;
+    height: 10vh;
+    padding-top: -50px;
+    width: 80%;
+    margin: auto;
+  }
+  body .coin .btc {
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 0vh;
+  }
+  body .coin .btc h4 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  body .coin .btc h5, body .coin .btc .eth .red, body .coin .eth .btc .red {
+    color: white;
+    font-size: 8px;
+    margin-top: -25px;
+    margin-bottom: -15px;
+  }
+  body .coin .btc h6 {
+    color: white;
+    font-size: 10px;
+  }
+  body .coin .eth {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 0vh;
+  }
+  body .coin .eth h4 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+  }
+  body .coin .eth h5, body .coin .eth .red {
+    color: green;
+    font-size: 7px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+  body .coin .eth .red {
+    color: red;
+  }
+  body .coin .eth h6 {
+    color: white;
+    font-size: 8.5px;
+    text-align: center;
+  }
+  body div {
+    background-color: #363535;
+    margin-top: 50px;
+  }
+  body div h1 {
+    color: white;
+    font-family: Arial Narrow bold;
+    text-align: center;
+  }
+  body div p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 13px;
+    margin-top: -25px;
+    margin-bottom: 35%;
+  }
+  body div input {
+    display: block;
+    background-color: #363535;
+    color: rgba(255, 255, 255, 0.589);
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 80%;
+  }
+  body div button, body div .acct {
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    left: 15%;
+  }
+  body div .acct {
+    background-color: #363535;
+    border: 1px solid white;
+    color: white;
+    margin-top: 10px;
+  }
+  body div .wallet {
+    background-color: rgba(167, 157, 157, 0.959);
+    border-radius: 10px;
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10%;
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=cryfin.css.map */

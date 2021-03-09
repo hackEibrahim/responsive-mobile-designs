@@ -1,0 +1,56 @@
+.coin {
+    background-color: rgb(83, 80, 80);
+    height: 10vh;
+    padding-top: -50px;
+    width: 80%;
+    margin: auto;
+    .btc {
+       float: left;
+       margin-left: 15px;
+       margin-top: 10px;
+       height: 0vh;
+       h4 {
+           color: white;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       }
+       h5 {
+           color: white;
+           font-size: 8px;
+           margin-top: -25px;
+           margin-bottom: -15px;
+       }
+       h6 {
+           color: white;
+           font-size: 10px;
+       }
+    }
+    .eth {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 0vh;
+       h4 {
+           color: white;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           font-weight: lighter;
+           font-size: 15px;
+           text-align: center;
+       }
+       h5 {
+           color: green;
+           font-size: 7px;
+           margin-top: -20px;
+           margin-bottom: -10px;
+           text-align: center;
+       }
+       .red {
+           color: red;
+           @extend h5;
+       }
+       h6 {
+           color: white;
+           font-size: 8.5px;
+           text-align: center;
+       }
+    }
+}

@@ -1,0 +1,53 @@
+@media only screen and (max-width: 800px) {
+  body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ee8155), to(black));
+    background-image: linear-gradient(top, #ee8155, black);
+    background-repeat: no-repeat;
+    padding: 5% 5% 3% 5%;
+  }
+  body img {
+    width: 50%;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    margin-top: -40px;
+  }
+  body h1 {
+    text-align: center;
+    font-size: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: -45px;
+    margin-bottom: 40px;
+  }
+  body input, body .last {
+    border-radius: 25px;
+    width: 50%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgba(218, 141, 106, 0.199);
+    padding: 10px 35px 10px 15px;
+    border: none;
+    margin-bottom: 10px;
+    position: relative;
+    left: 20%;
+  }
+  body .last {
+    border: 1px solid rgba(222, 184, 135, 0.397);
+    background-color: none;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    width: 60%;
+  }
+  body span {
+    color: rgba(233, 191, 135, 0.555);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
+    position: relative;
+    left: 35%;
+  }
+}
+/*# sourceMappingURL=login.css.map */
